@@ -35,7 +35,7 @@ copy the following in to emonhub.conf:
 const byte version = 15;                                 // Firmware version divide by 10 to get version number e,g 05 = v0.5
 
 // Comment/Uncomment as applicable
-#define ENABLE_RF                                       // Enable RF69 transmit, turn off if using direct serial, or EmonESP
+//#define ENABLE_RF                                       // Enable RF69 transmit, turn off if using direct serial, or EmonESP
 #define RF_WHITENING                                    // Improves rfm reliability
 #define PRINT_DATA                                      // Print data in Key:Value format to serial, used by EmonESP & emonhub EmonHubTx3eInterfacer
 #define DEBUG                                        // Debug level print out
